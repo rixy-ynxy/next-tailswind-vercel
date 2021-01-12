@@ -33,15 +33,20 @@ export default function Layout({children, title = "HP by Nextjs"}) {
       <main className="flex flex-1 justify-center items-center flex-col w-screen">
         {children}
       </main>
-      <footer className="w-full h-12 flex justify-center items-center border-t">
+      <footer className="w-full h-20 flex justify-center items-center border-t">
         <a
           className="flex items-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://yunixy.co.jp"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          <img 
+          src="/logo.png"
+          width={60}
+          height={60}
+          alt="Yunixy Logo"
+          className="h-15 ml-2" />
         </a>
       </footer>
     </div>
